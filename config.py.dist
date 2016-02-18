@@ -8,16 +8,19 @@
 
 SEGMENTS = [
 # Set the terminal window title to user@host:dir
-#    'set_term_title',
+    'set_term_title',
+
+# Show the current time
+    'time',
 
 # Show current virtual environment (see http://www.virtualenv.org/)
-    'virtual_env',
+#    'virtual_env',
 
 # Show the current user's username as in ordinary prompts
-    'username',
+#    'username',
 
 # Show the machine's hostname. Mostly used when ssh-ing into other machines
-    'hostname',
+#    'hostname',
 
 # Show a padlock when ssh-ing from another machine
     'ssh',

@@ -4,7 +4,7 @@ def add_set_term_title_segment(powerline):
         return
 
     if powerline.args.shell == 'bash':
-        set_title = '\\[\\e]0;\\u@\\h: \\w\\a\\]'
+        set_title = '\\[\\e]0;\\w\\a\\]'
     elif powerline.args.shell == 'zsh':
         set_title = '\033]0;%n@%m: %~\007'
     else:
