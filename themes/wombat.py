@@ -20,8 +20,8 @@ class Color(DefaultColor):
 
     REPO_CLEAN_BG = 148  # a light green color
     REPO_CLEAN_FG = 0  # black
-    REPO_DIRTY_BG = 125  # pinkish
-    REPO_DIRTY_FG = 15 # white
+    REPO_DIRTY_BG = 148  # a light green color
+    REPO_DIRTY_FG = 0 # black
 
     JOBS_FG = 14
     JOBS_BG = 8
